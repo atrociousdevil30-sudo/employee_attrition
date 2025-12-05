@@ -206,7 +206,7 @@ def main():
         
         if result['risk_level'] == 'High':
             st.warning("""
-            **High Risk of Attrition Detected! Consider the following actions:**
+            **Consider the following actions:**
             - Schedule a one-on-one meeting to discuss concerns
             - Review compensation and benefits package
             - Explore opportunities for career advancement
@@ -215,7 +215,7 @@ def main():
             """)
         elif result['risk_level'] == 'Medium':
             st.info("""
-            **Moderate Risk of Attrition. Consider these preventive measures:**
+            **Consider these preventive measures:**
             - Regular check-ins to monitor job satisfaction
             - Recognize and reward good performance
             - Provide growth and development opportunities
@@ -223,7 +223,7 @@ def main():
             """)
         else:
             st.success("""
-            **Low Risk of Attrition. Maintain engagement with:**
+            **Maintain engagement with:**
             - Continue regular performance feedback
             - Provide challenging work assignments
             - Offer professional development opportunities
